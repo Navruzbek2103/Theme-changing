@@ -1,0 +1,16 @@
+h2, h3, h4, h5, p{
+  margin: 0;
+}
+
+.select-box{
+  width: 300px;
+}
+select{
+  max-width: 140px;
+  width: 100%;
+}
+
+
+.bg{
+  background-color: #7cfc00;
+}
