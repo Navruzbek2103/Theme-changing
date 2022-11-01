@@ -5,10 +5,7 @@ $("#mode").addEventListener("change", (e) => {
 
 function darkMode(){
   let mode = localStorage.getItem("mode")
-  $("header").style.backgroundColor = mode
-  if($("header").style.backgroundColor === mode){
-    $("header").style.color = "white"
-  }
+  $("header").style.backgroundColor = mode;
   $("footer").style.backgroundColor = mode
 }
 
